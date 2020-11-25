@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+}
+
+input, button, textarea{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+}
+
+html, body{
+	max-width: 100%;
+    overflow-x: hidden;
+}
+
+body{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+#header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background:#34a1eb;
+	width: 100vw;
+	height: 50px;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.header{
+	
+	display: flex;
+	width: 90%;
+	justify-content: space-between;
+	align-items: center;
+	color: #fff;
+}
+
+.header > .title > h2{
+	text-transform: uppercase;
+	font-weight: 900;
+}
+
+.header > .nav {
+	display: flex;
+	align-items: center;
+}
+
+.nav > a{
+	text-decoration: none;
+	padding-left: 40px;
+	color: #fff;
+	font-size: 1.1rem;
+	font-weight: 700;
+}
+
+#img-main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#img-main img{
+	width: 100vw !important;
+	margin-top: 50px;
+	height: 500px;
+	object-fit: cover;
+}
+
+.main{
+	width: 90%;
+	margin: 50px auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+
+.title-main{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.main .title-main h2{
+	font-size: 1.9rem;
+	font-weight: 900;
+	letter-spacing: 2px;
+}
+
+.services{
+	width: 90%;
+	margin: 50px auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.services .service{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	width: 220px;
+	padding: 20px;
+}
+
+.service img {
+	width: 80px;
+	margin-bottom: 30px;
+}
+
+.service p{
+	font-weight: 700;
+}
+
+.content{
+	width: 90%;
+	margin: 50px auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.form{
+
+	display: flex;
+	justify-content: center;
+	margin-left: 100px;
+	width: 50%;
+
+}
+
+.form form{
+	display: flex;
+	flex-direction: column;
+}
+
+form > h2{
+	font-weight: 900;
+	margin-bottom: 30px;;
+}
+
+form > input{
+	width: 500px;
+	height: 40px;
+	margin-bottom: 15px;
+	padding-left: 8px;
+}
+form > button{
+	border: none;
+	height: 40px;
+	background: linear-gradient(90deg, rgba(18,74,213,1) 0%, rgba(0,212,255,1) 100%);
+	color: #fff;
+	font-weight: 700;
+	margin-top: 5px;
+}
+
+form > button:hover{
+	background: linear-gradient(-90deg, rgba(18,74,213,1) 0%, rgba(0,212,255,1) 100%);
+	transition: .2s;
+}
+
+.contato{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.contato > div{
+	padding-left: 160px;
+}
+
+.contato > div > h2{
+	font-weight: 900;
+	margin-bottom: 120px;;
+}
+
+.itens{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.itens img{
+	width: 45px;
+}
+
+.itens label{
+	font-size: 1.9rem;
+	margin-left: 15px;
+	font-weight: 700;
+}
